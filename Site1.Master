@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Iowa Brewery Locator</title>
+    <link href="Styles/Master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <div id ="bannerbar"></div>
+        <div id = "navbar">
+            <div class="row">
+                <nav>
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                        <a href="/Comments/">Comments</a>
+                    </li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="logobox">
+            <a href="/" id="logo"></a>
+        </div>
+    </header>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="formPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <footer>
+    <asp:Label ID="lblFooter" runat="server">Brewery Locator Project by Heath, Eldin, James, Alexander, Michelle, and .</asp:Label>          
+    </footer>
+</body>
+</html>

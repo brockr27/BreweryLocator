@@ -1,0 +1,61 @@
+﻿body {
+    background-color:black;
+}
+.inputbox {
+    width: 250px;
+}
+.dayInputbox {
+    width: 75px;
+    height: 20px;
+    padding-right: 2em;
+    
+}
+.daylabel {
+    margin-left: 50px;
+}
+#bannerbar{
+    background-color: #B09359;
+}
+#navbar{
+    background-color: black;
+    height:35px;
+}
+#navbar .row{
+    height:35px;
+}
+ul{
+    color: white !important;
+    display: inline;
+    text-align:center;
+    font-family: Arial, sans-serif;
+}
+.logobox{
+    width: 100%;
+    background-color:black;
+    height: 205px;
+    margin-left: 1245px;
+    margin-top: 0px;
+}
+#logo {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    display: block;
+    position: fixed;
+    z-index: 95;
+    width: 252px;
+    height: 195px;
+    margin: 0 auto;
+    background-image: url('../Images/logo.jpg');
+    right: 1%;
+    top: 38px;
+}
+footer{
+    color:white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color:gray;
+}
